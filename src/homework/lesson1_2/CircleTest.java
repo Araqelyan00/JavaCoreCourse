@@ -1,4 +1,4 @@
-package classwork.lesson1_2;
+package homework.lesson1_2;
 
 public class CircleTest {
     public static void main(String[] args) {

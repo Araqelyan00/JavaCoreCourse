@@ -1,6 +1,6 @@
 package classwork.lesson1;
 
-import classwork.lesson1_2.Employee;
+import homework.lesson1_2.Employee;
 
 public class EmployeeTest2 {
     public static void main(String[] args) {
