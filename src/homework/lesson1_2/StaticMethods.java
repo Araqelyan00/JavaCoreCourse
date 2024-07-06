@@ -12,5 +12,4 @@ public class StaticMethods {
         int j = a % b;
         System.out.println("Method 2 Result :" + l + " and " + j);
     }
-
 }
