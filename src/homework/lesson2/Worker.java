@@ -14,6 +14,7 @@ public class Worker extends Human{
         this.surname = surname;
         this.haveEducation = haveEducation;
     }
+
     Worker(int age, String name, String surname, boolean haveEducation, int id){
         super("Name", "Surname", true, 18, 1);
         this.age = age;
