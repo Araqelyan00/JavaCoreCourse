@@ -12,12 +12,12 @@ public class BoxDemo {
     }
 
     static void printVolumeDouble(Box box) {
-//        System.out.println(box.volume());
+        System.out.println(box.volume());
         if (box instanceof ColorBox) {
             ColorBox colorBox = (ColorBox) box;
             System.out.print("Color :");
             System.out.println(colorBox.color);
-//            BoxWeight boxWeight = new BoxWeight(12.4, 4, 1, 2);
+            BoxWeight boxWeight = new BoxWeight(12.4, 4, 1, 2);
         }
     }
 }
