@@ -9,7 +9,7 @@ public class User {
 
     }
 
-    public User(String name, int id, String contactNumber) {
+    public User( int id, String name, String contactNumber) {
         this.name = name;
         this.id = id;
         this.contactNumber = contactNumber;
@@ -36,6 +36,6 @@ public class User {
 
     @Override
     public String toString() {
-        return "User [name=" + name + ", id=" + id + ", contactNumber=" + contactNumber + "]";
+        return "\n" + "User's Name: " + name +"\n" + "ID: " + id + "\n" + "Contact Number: " + contactNumber ;
     }
 }

@@ -29,10 +29,10 @@ public class Menu {
                     String name = input.next();
 
                     System.out.print("Enter user contact number: ");
-                    String contactNumber = input.nextLine();
+                    String contactNumber = input.next();
                     input.nextLine();
 
-                    user = new User(name, id, contactNumber);
+                    user = new User(id, name, contactNumber);
                     userManager.addUser(user);
                     System.out.println(user.toString());
                     break;
@@ -76,12 +76,13 @@ public class Menu {
     }
 
     public static void menu() {
-        System.out.println("MENU");
+        System.out.println(" ");
+        System.out.println("_____MENU_____");
         System.out.println("1: Add User");
         System.out.println("2: Delete User");
         System.out.println("3: Update User");
         System.out.println("4: Search User");
-        System.out.println("5: Display User");
+        System.out.println("5: Display Users");
         System.out.println("9: Exit program");
         System.out.print("Enter your selection : ");
     }
