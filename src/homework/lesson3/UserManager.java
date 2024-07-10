@@ -15,7 +15,7 @@ public class UserManager {
     public void addUser(User user) {
         if (!list.contains(user)) {
             list.add(user);
-        }else System.out.println("User already exists.");
+        }else System.out.println("\n" + "User already exists.");
     }
 
     // Delete User method
@@ -29,7 +29,7 @@ public class UserManager {
         }
 
         if (userdel == null) {
-            System.out.println("User not found.");
+            System.out.println("\n" + "User not found.");
         }
         else{
             list.remove(userdel);
@@ -71,23 +71,23 @@ public class UserManager {
         if (find(userId)) {
             User user = getUser(userId);
 
-            System.out.print("Type users new ID: ");
+            System.out.print("\n" + "Type users new ID: ");
             int id = s.nextInt();
             System.out.print("Type users new name: ");
-            String name = s.nextLine();
+            String name = s.next();
             System.out.print("Type users new contactNumber: ");
-            int number = s.nextInt();
-            System.out.print("Update is Done!");
+            String number = s.next();
+            System.out.print("\n" + "Update is Done!");
         }
         else {
-            System.out.println("User not found.");
+            System.out.println("\n" + "User not found.");
         }
     }
 
     // Display Users list method
     public void displayUsers() {
         if(list.isEmpty()){
-            System.out.println("No users found.");
+            System.out.println("\n" + "No users found.");
         }
 
         for (User u : list) {

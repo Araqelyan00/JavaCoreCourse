@@ -10,6 +10,6 @@ public class Menu {
         System.out.println("4: Search User");
         System.out.println("5: Display Users");
         System.out.println("9: Exit program");
-        System.out.print("Enter your selection : ");
+        System.out.print("\n" + "Enter your selection : ");
     }
 }
