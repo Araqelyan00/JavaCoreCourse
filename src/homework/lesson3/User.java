@@ -36,6 +36,10 @@ public class User {
 
     @Override
     public String toString() {
-        return "\n" + "User's Name: " + name +"\n" + "ID: " + id + "\n" + "Contact Number: " + contactNumber ;
+        return STR."""
+
+User's Name: \{name}
+ID: \{id}
+Contact Number: \{contactNumber}""";
     }
 }
