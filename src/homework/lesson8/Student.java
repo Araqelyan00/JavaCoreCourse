@@ -1,5 +1,7 @@
 package homework.lesson8;
 
+import java.util.Objects;
+
 public class Student implements Comparable<Student> {
 
     private int id;
@@ -52,5 +54,18 @@ public class Student implements Comparable<Student> {
             result = this.name.compareTo(o.name);
         }
         return result;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return id == student.id && course == student.course && Objects.equals(name, student.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, course);
     }
 }
