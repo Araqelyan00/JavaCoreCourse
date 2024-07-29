@@ -1,4 +1,6 @@
-package homework.lesson8;
+package homework.lesson8.map_interface;
+
+import homework.lesson8.Student;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,7 +13,7 @@ public class HashMapExample {
 
 
 //        Constructor with initial capacity and load factory.
-//        These attributes are default values. (0.75f is a golden middle choose for it.)
+//        These attributes are default values. (0.75f is a golden middle choice for it.)
         Map<String, Student> map = new HashMap<>(16,0.75f);
 
         Student student1 = new Student(1,"Ashot", 1);

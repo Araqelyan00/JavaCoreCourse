@@ -44,9 +44,9 @@ public class Student implements Comparable<Student> {
 
     @Override
     public String toString() {
-        return STR."Student ID = \{id}, name = \{name}, course = \{course}.";
+        return STR."Student ID = \{id}, name = \{name}.";
     }
-
+//, course = \{course}.
     @Override
     public int compareTo(Student o) {
         int result = this.id - o.id;

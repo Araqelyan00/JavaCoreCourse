@@ -1,4 +1,6 @@
-package homework.lesson8;
+package homework.lesson8.list_interface;
+
+import homework.lesson8.Student;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +12,7 @@ public class ArrayListExample {
     //1.Version
 //    ArrayList list = new ArrayList();
     //2.Version(adding attribute minimal capacity 100)
-    ArrayList newList = new ArrayList(100);
+    ArrayList<Student> newList = new ArrayList(100);
     //3.Version
         List<Student> list = new ArrayList<>();
 
@@ -21,13 +23,13 @@ public class ArrayListExample {
         Student student4 = new Student(4,"Sam", 5);
         Student student5 = new Student(5,"Lilit", 2);
 
-//Add students to list
+//Add students to the list
         list.add(student1);
         list.add(student2);
         list.add(student3);
         list.add(student4);
         System.out.println(list);
-//Add student to index 1
+//Add a student to index 1
         list.add(1,student5);
         System.out.println(list);
 

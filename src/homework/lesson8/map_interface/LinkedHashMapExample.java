@@ -1,4 +1,6 @@
-package homework.lesson8;
+package homework.lesson8.map_interface;
+
+import homework.lesson8.Student;
 
 import java.util.LinkedHashMap;
 

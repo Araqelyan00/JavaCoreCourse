@@ -1,7 +1,8 @@
-package homework.lesson8;
+package homework.lesson8.list_interface;
+
+import homework.lesson8.Student;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
